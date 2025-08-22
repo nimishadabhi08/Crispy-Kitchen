@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style3.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- ####Nav###  -->
+    <section>
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-height bg-white m-0 p-0 navbar-fixed-top ">
+            <div class="container ">
+                <a class="navbar-brand text-black text-center" href="#">
+                    <h2 class="brand-name">Crispy Kitchen</h2>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="navbar-nav mx-auto ">
+                        <li class="nav-item">
+                            <a class="nav-link active nav-color text-danger li-text" href="index3.html">Home</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link text-black li-text" href="story.html">Story</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black li-text" href="menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black li-text" href="our update.html">Our Update</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black li-text" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="d-none d-lg-block">
+
+                        <button type="button" class="btn btn-danger btn-reserve" data-bs-toggle="modal" data-bs-target="#myModal">
+                        Reservation
+                      </button>
+                    </div>
+                    <div class="modal" id="myModal">
+                        <div class="modal-dialog  modal-xl">
+                            <div class="modal-content">
+
+                                <div class="modal-header">
+                                    <h4 class="modal-title">
+                                        <h2>Reserve a table</h2>
+                                    </h4>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+
+
+                                <div class="modal-body d-flex flex-column justify-content-center">
+                                    <div class="row ">
+                                        <div class="reserve float-lg-start">
+                                            <div class="form row">
+                                                <div class="col-lg-6 col-12">
+                                                    <label for="name">Name</label>
+                                                    <input type="text" name="" id="name" class="form-control" placeholder="Your Name">
+
+                                                </div>
+                                                <div class="col-lg-6 col-12">
+                                                    <label for="email">Email</label>
+                                                    <input type="email" name="" id="email" class="form-control" placeholder="Your@gmail.com">
+
+                                                </div>
+                                                <div class="col-lg-6 col-12">
+                                                    <label for="pnumber">Phone Number</label>
+                                                    <input type="number" name="" id="pnumber" class="form-control" placeholder="123-456-789">
+
+                                                </div>
+                                                <div class="col-lg-6 col-12">
+                                                    <label for="nperson">No Of Person</label>
+                                                    <input type="number" name="" id="nperson" class="form-control" placeholder="12">
+
+
+                                                </div>
+                                                <div class="col-lg-6 col-12">
+                                                    <label for="date">Date</label>
+                                                    <input type="date" name="" id="date" class="form-control">
+
+                                                </div>
+                                                <div class="col-lg-6 col-12">
+                                                    <label for="time">Time</label>
+                                                    <input type="datetime" name="" id="time" class="form-control" placeholder="5:00 pm">
+
+
+                                                </div>
+                                                <div class="col-lg-12 col-12">
+                                                    <label for="sprequest">Special Request</label>
+                                                    <br>
+                                                    <textarea name="" id="sprequest" cols="30" rows="5" class="form-control"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="">
+
+                                                <button type="button" class="btn btn-dark d-block m-auto ps-lg-3 me-lg-3 w-4" data-bs-dismiss="modal">Submit Request</button>
+                                            </div>
+
+                                        </div>
+
+
+
+
+
+                                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <main>
+        <header class="menu-main-img menu-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 col-12 mx-auto margin-top-storyback-con">
+                        <h1 class="text-main-heading ">Kitchen's Story</h1>
+                        <h6 class="text-main-small-text"> this is how our kitchen evolved in new digital era</h6>
+
+                    </div>
+                </div>
+            </div>
+            <div class="overly"></div>
+        </header>
+
+    </main>
+    <!-- ##### BreakFast Menu #####  -->
+    <section class="menu comment-sec-padding">
+        <div class="container">
+            <div class="row">
+                <h1 class="special-menu text-lg-start">Breakfast Menu</h1>
+            </div>
+            <div class="row">
+
+
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="menu-img">
+                        <div class="menu-img-over">
+                            <img src="./Image3/food1.jpg" alt="" class="img-fluid menu-photo-h w-100">
+
+                        </div>
+                        <div class="d-flex align-items-center mt-3">
+                            <h4>Fresh Start</h4>
+                            <span class="price-of-food shadow-lg ms-4">
+                                <small >$</small>15.20
+                               </span>
+                        </div>
+                        <div class="d-flex flex-wrap align-items-center ">
+                            <h4 class="pe-3">3/5</h4>
+                            <div class=" text-warning fa fa-x fa-star text-center "></div>
+                            <div class=" text-warning fa fa-x fa-star text-center "></div>
+                            <div class=" text-warning fa fa-x fa-star text-center "></div>
+                            <div class=" text-warning fa fa-x fa fa-star-o text-center "></div>
+                            <div class=" text-warning fa fa-x fa fa-star-o text-center "></div>
+
+
+
+                            <span class="ps-4">102 Reviews</span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="menu-img">
+                        <div class="menu-img-over">
+                            <img src="./Image3/food3.jpg" alt="" class="img-fluid menu-photo-h w-100">
+
+                        </div>
+                        <div class="d-flex align-items-center mt-3">
+                            <h4>Baked Creamy</h4>
+                            <span class="price-of-food shadow-lg ms-4">
+                                <small >$</small>17.36
+                               </span>
+                        </div>
+                        <div class="d-flex flex-wrap align-items-center ">
+                            <h4 class="pe-3">4/5</h4>
+
+                            <div class=" text-warning fa fa-x fa-star text-center "></div>
+                            <div class=" text-warning fa fa-x fa-star text-center "></div>
+                            <div class=" text-warning fa fa-x fa-star text-center "></div>
+                            <div class=" text-warning fa fa-x fa-star text-center "></div>
+                            <div class=" text-warning fa fa-x fa-star-o text-center "></div>
+
+                            <span class="ps-4">150 Reviews</span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="menu-img">
+                        <div class="menu-img-over">
+                            <img src="./Image3/food9.jpg" alt="" class="img-fluid menu-photo-h w-100">
+
+                        </div>
+                        <div class="d-flex align-items-center mt-3">
+                            <h4>Burger Set</h4>
+                            <span class="price-of-food shadow-lg ms-4">
+                                <small >$</small>8.69
+                                
+                                
+                            </span>
+                            <del class="ms-4"> 
+                                <span> <small>$</small>3.36</span></del>
+
+                        </div>
+                        <div class="d-flex flex-wrap align-items-center ">
+                            <h4 class="pe-3">5/5</h4>
+                            <div class=" text-warning fa fa-x fa-star text-center "></div>
+                            <div class=" text-warning fa fa-x fa-star text-center "></div>
+                            <div class=" text-warning fa fa-x fa-star text-center "></div>
+                            <div class=" text-warning fa fa-x fa-star text-center "></div>
+                            <div class=" text-warning fa fa-x fa-star text-center "></div>
+
+
+
+
+
+                            <span class="ps-4">200 Reviews</span>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!-- ####Lunch Menu ####  -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <h1 class="special-menu text-lg-start">Lunch Menu</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <div class="menu-img">
+                        <div class="menu-img-over">
+                            <img src="./Image3/Super Steak Set.jpg" alt="" class="img-fluid menu-photo-h w-100">
+
+                        </div>
+                        <div class="d-flex align-items-center mt-3">
+                            <h4>Super Steak Set
+                            </h4>
+                            <span class="price-of-food shadow-lg ms-4">
+                                <small >$</small>35.7
+                               </span>
+                            <del class="ms-4"><span><small >$</small>29.8</span></del>
+                        </div>
+                        <div class="d-flex flex-wrap align-items-center ">
+                            <h4 class="pe-3">5/5</h4>
+                            <div class=" text-warning fa fa-x fa-star text-center "></div>
+                            <div class=" text-warning fa fa-x fa-star text-center "></div>
+                            <div class=" text-warning fa fa-x fa-star text-center "></div>
+                            <div class=" text-warning fa fa-x fa-star text-center "></div>
+                            <div class=" text-warning fa fa-x fa-star text-center "></div>
+
+
+
+
+
+                            <span class="ps-4">66 Reviews</span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <div class="menu-img">
+                        <div class="menu-img-over">
+                            <img src="./Image3/Bread & Steak Set.jpg " alt=" " class="img-fluid menu-photo-h w-100 ">
+
+                        </div>
+                        <div class="d-flex align-items-center mt-3 ">
+                            <h4>Bread Steak Set
+                            </h4>
+                            <span class="price-of-food shadow-lg ms-4 ">
+                                <small >$</small>45.1
+                               </span>
+
+                        </div>
+                        <div class="d-flex flex-wrap align-items-center ">
+                            <h4 class="pe-3 ">4/5</h4>
+                            <div class=" text-warning fa fa-x fa-star text-center "></div>
+                            <div class=" text-warning fa fa-x fa-star text-center "></div>
+                            <div class=" text-warning fa fa-x fa-star text-center "></div>
+                            <div class=" text-warning fa fa-x fa-star text-center "></div>
+                            <div class=" text-warning fa fa-x fa-star-o text-center "></div>
+
+
+
+
+
+                            <span class="ps-4 ">78 Reviews</span>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- #####Dinner Menu#####  -->
+    <section class="menu comment-sec-padding">
+        <div class="container">
+            <div class="row">
+                <h1 class="special-menu text-lg-start">Dinner Menu</h1>
+            </div>
+            <div class="row">
+
+
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="menu-img">
+                        <div class="menu-img-over">
+                            <img src="./Image3/seafood1jpg.jpg" alt="" class="img-fluid menu-photo-h w-100">
+
+                        </div>
+                        <div class="d-flex align-items-center mt-3">
+                            <h4>Seafood Set</h4>
+                            <span class="price-of-food shadow-lg ms-4">
+                                <small >$</small>48.8
+                               </span>
+                        </div>
+                        <div class="d-flex flex-wrap align-items-center ">
+                            <h4 class="pe-3">4/5</h4>
+                            <div class=" text-warning fa fa-x fa-star text-center "></div>
+                            <div class=" text-warning fa fa-x fa-star text-center "></div>
+                            <div class=" text-warning fa fa-x fa-star text-center "></div>
+                            <div class=" text-warning fa fa-x fa-star text-center "></div>
+
+                            <div class=" text-warning fa fa-x fa fa-star-o text-center "></div>
+
+
+
+                            <span class="ps-4">97 Reviews</span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="menu-img">
+                        <div class="menu-img-over">
+                            <img src="./Image3/Premium Steak.jpg" alt="" class="img-fluid menu-photo-h w-100">
+
+                        </div>
+                        <div class="d-flex align-items-center mt-3">
+                            <h4>Premium Steak</h4>
+                            <span class="price-of-food shadow-lg ms-4">
+                                <small >$</small>26.2
+                               </span>
+                        </div>
+                        <div class="d-flex flex-wrap align-items-center ">
+                            <h4 class="pe-3">4/5</h4>
+
+                            <div class=" text-warning fa fa-x fa-star text-center "></div>
+                            <div class=" text-warning fa fa-x fa-star text-center "></div>
+                            <div class=" text-warning fa fa-x fa-star text-center "></div>
+                            <div class=" text-warning fa fa-x fa-star text-center "></div>
+                            <div class=" text-warning fa fa-x fa-star-o text-center "></div>
+
+                            <span class="ps-4">150 Reviews</span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="menu-img">
+                        <div class="menu-img-over">
+                            <img src="./Image3/Salmon Set.jpg" alt="" class="img-fluid menu-photo-h w-100">
+
+                        </div>
+                        <div class="d-flex align-items-center mt-3">
+                            <h4>Salmon Set</h4>
+                            <span class="price-of-food shadow-lg ms-4">
+                                <small >$</small>10.5
+                                
+                                
+                            </span>
+                        </div>
+                        <div class="d-flex flex-wrap align-items-center ">
+                            <h4 class="pe-3">3/5</h4>
+                            <div class=" text-warning fa fa-x fa-star text-center "></div>
+                            <div class=" text-warning fa fa-x fa-star text-center "></div>
+                            <div class=" text-warning fa fa-x fa-star text-center "></div>
+
+                            <div class=" text-warning fa fa-x fa-star-o text-center "></div>
+                            <div class=" text-warning fa fa-x fa-star-o text-center "></div>
+
+
+
+
+
+
+                            <span class="ps-4">200 Reviews</span>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!-- ####Footer######  -->
+    <footer class="footer-img comment-sec-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h4 class="text-white mb-4 me-5">Crispy Kitchen</h4>
+                </div>
+                <div class="col-lg-4 col-md-7 col-xs-12">
+                    <h6 class="text-white mb-lg-4 mb-3"> Location
+                    </h6>
+                    <p>121 Einstein Loop N, Bronx, NY 10475, United States</p>
+                    <a href="#" class="btn custom-btn btn-dark mt-2">Direction</a>
+                </div>
+
+
+                <div class="col-lg-4">
+                    <h6 class="text-white mb-lg-4 mb-3">
+                        Opening Hours
+                    </h6>
+                    <p> Monday-Friday</p>
+
+                    <p>10:00 AM -8:00 PM</p>
+
+                    <p>Tel:
+                        <a href="#" class="tel-link"> 0100-02-0340</a>
+                    </p>
+
+                </div>
+                <div class="col-lg-4">
+                    <h6 class="text-white mb-lg-4 mb-3">
+                        Social
+                    </h6>
+                    <ul class="footer-soci-icon">
+                        <li>
+                            <a href="#" class="icon-link fa fa-facebook-square fa-x "></a>
+
+                        </li>
+                        <li>
+                            <a href="#" class="icon-link fa  fa-instagram fa-x "></a>
+                        </li>
+                        <li>
+                            <a href="#" class="icon-link fa fa-twitter  fa-x "></a>
+                        </li>
+                        <li>
+                            <a href="#" class="icon-link fa fa-youtube-play fa-x "></a>
+                        </li>
+                    </ul>
+                    <p class="mt-5">
+                        Copyright © 2022 Crispy Kitchen Co., Ltd. Design:
+                        <a href="#" rel="nofollow" target="_b">Toolplate</a>
+
+
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
